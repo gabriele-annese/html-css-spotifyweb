@@ -1,0 +1,51 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utility */
+.debug-box {
+    height: 50px;
+    width: 100%;
+    background: rgba(0,0,0,.2);
+}
+
+.flex {
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+/* aside */
+aside {
+    width: 30%;
+    background: purple;
+}
+
+/* header */    
+header {
+    width: 20%;
+    background: blue;
+}
+
+/* main */
+main {
+    flex-grow: 1;
+    background: green;
+    overflow: auto;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+}
