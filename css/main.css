@@ -7,6 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    font-size: 14px;
+     color: #fff;
+} 
+
 /* utility */
 .debug-box {
     height: 50px;
@@ -23,29 +28,58 @@
     position: relative;
 }
 
-/* aside */
-aside {
-    width: 30%;
-    background: purple;
+.p-20y {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.p-20x {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.brand {
+    width: 150px;
+}
+
+.action {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
 
 /* header */    
 header {
-    width: 20%;
-    background: blue;
+    width: 15%;
+    background: #000;
+}
+
+header ul {
+    list-style: none;
+}
+
+.list-container {
+    align-items: center;
+}
+
+header ul li span {
+    font-weight: 600;
+    font-size: 18px;
 }
 
 /* main */
 main {
     flex-grow: 1;
-    background: green;
+    background: #141922;
     overflow: auto;
 }
 
 /* footer */
 footer {
     width: 100%;
-    background: orange;
+    background: #282828;
     position: absolute;
     bottom: 0;
 }
