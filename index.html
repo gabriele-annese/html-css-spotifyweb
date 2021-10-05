@@ -22,11 +22,15 @@
     <main class="flex">
         <!-- aside -->
         <aside class=" flex main-left flex p-20x">
-            <div class="brand">
-                <img src="./img/logo.svg" alt="">
-            </div> 
             <!-- list-top -->
             <ul class="list-top">
+                <ul>
+                    <li>
+                        <div class="brand">
+                            <img src="./img/logo.svg" alt="">
+                        </div> 
+                    </li>
+                </ul>
                 <li>
                     <div class="container-aside flex">
                         <img class="action mrg-r5" src="./img/home.svg" alt="">
@@ -52,7 +56,7 @@
                     </li>
                     <li>
                         <div class="container-aside flex">
-                            <i class="icon-a mrg-r5 far fa-plus-square"></i>
+                            <i class="icon mrg-r5 far fa-plus-square"></i>
                             <a href="#">Crea la tua playlist</a>
                         </div>
                     </li>
@@ -82,20 +86,22 @@
     
     
             <!-- list-bottom -->
-            <ul class="list-bottom">
-                <li>
-                    <div class="install p-20y">
-                        <i class="mrg-r5 far fa-arrow-alt-circle-down"></i>
-                        <a href="#">Installa app</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="profile flex">
-                        <i class="icon-a mrg-r5 far fa-user-circle"></i>
-                        <h2 class="aside-title ">Jhon Doe</h2>
-                    </div>
-                </li>
-            </ul>
+            <ul class="list-bottom flex">
+                    <li>
+                        <div class="install p-20y">
+                            <div class="profile flex">
+                                <img class="icon-a mrg-r5" src="./img/download.svg" alt="">
+                                <a href="#">Installa app</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="profile flex">
+                            <img class="icon-a mrg-r5" src="./img/profile.svg" alt="">
+                            <h2 class="aside-title ">Jhon Doe</h2>
+                        </div>
+                    </li>
+            </ul> 
         </aside>
 
         <!-- right -->
@@ -236,7 +242,26 @@
 
     <!-- footer -->
     <footer class="flex">
-        <div class="debug-box">CIAO</div>
+        <section class="footer-section">
+            <!-- left -->
+            <div class="left-footer">
+               <ul class="flex">
+                   <li>
+                        <img src="./img/sinister.jpeg" alt="">
+                   </li>
+                   <li class="title-footer flex">
+                        <h4>Sinister</h4>
+                        <span>Brano Nome</span>
+                   </li>
+                   <li class="save-footer flex">
+                    <i class="icon-f far fa-heart"></i>
+                    <i class="icon-f far fa-folder"></i>
+                   </li>
+               </ul>
+            </div>
+            <!-- center -->
+            <!-- right -->
+        </section>
     </footer>
 </body>
 </html>

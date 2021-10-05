@@ -73,7 +73,12 @@ a {
 }
 
 .icon-a{
-    font-size: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.icon {
+   font-size: 50px;
     cursor: pointer;
 }
 
@@ -101,6 +106,12 @@ a {
     border-radius: 50%;
 }
 
+.icon-f {
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+} 
+
 /* header */
 header {
     width: 100%;
@@ -121,7 +132,6 @@ main {
     width: 20%;
     z-index: 2;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .main-left  ul {
@@ -148,6 +158,11 @@ main {
 
 .profile {
     align-items: center;
+}
+
+.list-bottom{
+    flex-direction: column;
+    padding-top: 150px;
 }
 
 /* right-section */
@@ -197,4 +212,40 @@ footer {
     position: absolute;
     bottom: 0;
     z-index: 2;
+}
+
+.left-footer ul {
+    list-style: none;
+}
+
+.left-footer li {
+    padding: 10px;
+    text-align: center;
+}
+
+.left-footer li img {
+    width: 50px;
+}
+
+.left-footer .title-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-footer .title-footer h4 {
+    font-weight: 900;
+    color: #fff;
+    font-size: 18px;
+}
+.left-footer .title-footer span {
+    font-weight: 900;
+}
+
+.left-footer .save-footer {
+    align-items: center;
+}
+
+.left-footer .save-footer i {
+    padding: 0 10px;
 }
