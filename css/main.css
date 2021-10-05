@@ -13,7 +13,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-color: #141922; */
 } 
 
 a {
@@ -97,6 +96,11 @@ a {
     padding-bottom: 5px;
 }
 
+
+.artist .cover img{
+    border-radius: 50%;
+}
+
 /* header */
 header {
     width: 100%;
@@ -117,7 +121,7 @@ main {
     width: 20%;
     z-index: 2;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .main-left  ul {
@@ -190,5 +194,8 @@ main {
 /* footer */
 footer {
     background-color: #282828;
-    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
 }
