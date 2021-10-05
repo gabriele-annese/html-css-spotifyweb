@@ -91,20 +91,22 @@ header {
     position: fixed;
     z-index: -2;
 }
+/* main */
+main {
+    flex-grow: 1;
+}
 
 /* main-left */
 .main-left {
     background: #000;
     width: 20%;
     z-index: 1;
-    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .main-left  ul {
     list-style-type: none;
-    padding: 20px 0;
 }
 
 .main-left  li {
@@ -131,13 +133,12 @@ header {
 
 /* right-section */
 .main-right {
-    flex-grow: 1;
     overflow: auto;
 }
 
 
 /* footer */
 footer {
-    width: 100%;
-    background: #282828;
+    background-color: #282828;
+    height: 80px;
 }
