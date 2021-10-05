@@ -13,7 +13,13 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #141922;
 } 
+
+a {
+    text-decoration: none;
+    color: #717171;
+}
 
 /* utility */
 .debug-box {
@@ -37,6 +43,17 @@ body {
    padding-right: 20px;
 }
 
+.button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 .mrg-r5{
     margin-right: 5px;
 }
@@ -50,37 +67,77 @@ body {
     height: 30px;
 }
 
-.h-title {
+.aside-title {
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
+}
+
+.icon-a{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.mr-t {
+    margin-top: 80px;
 }
 
 
 /* header */
 header {
     width: 100%;
-    background: black(0,0,0,.2);
-    text-align: right;
+    background: rgba(0,0,0,.2);
+    justify-content: flex-end;
     position: fixed;
+    z-index: -45;
 }
 
+/* main-left */
 .main-left {
-    background: purple;
+    background: #000;
     width: 20%;
+    z-index: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.main-left  ul {
+    list-style-type: none;
+    padding: 40px 0;
+}
 
-/* main */
-main {
-    width: 100%;
-    background-color: aqua;
+.main-left  li {
+    padding: 10px 0;
+}
+
+.main-left .container-aside {
+    align-items: center;
+}
+
+.main-left .container-aside a,
+.main-left li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.install{
+    border-bottom: solid 2px #717171;
+}
+
+.profile {
+    align-items: center;
+}
+
+/* right-section */
+.main-right {
     flex-grow: 1;
     overflow: auto;
 }
 
+
 /* footer */
 footer {
     width: 100%;
-    background: blue;
+    background: #282828;
 }
