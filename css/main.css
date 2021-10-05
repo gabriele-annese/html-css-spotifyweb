@@ -13,7 +13,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #141922;
+    /* background-color: #141922; */
 } 
 
 a {
@@ -89,18 +89,20 @@ header {
     background: rgba(0,0,0,.2);
     justify-content: flex-end;
     position: fixed;
-    z-index: -2;
+    z-index: 1;
 }
+
 /* main */
 main {
-    flex-grow: 1;
+    height: 100%;
 }
 
 /* main-left */
 .main-left {
     background: #000;
     width: 20%;
-    z-index: 1;
+    z-index: 2;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -131,14 +133,25 @@ main {
     align-items: center;
 }
 
+
 /* right-section */
 .main-right {
+    background: #141922;
+    width: 80%;
+    flex-grow: 1;
     overflow: auto;
+}
+
+
+.main-right .cover {
+    width: 300px;
+    height: 200px;
+    background: orange;
 }
 
 
 /* footer */
 footer {
     background-color: #282828;
-    height: 80px;
+    height: 50px;
 }
