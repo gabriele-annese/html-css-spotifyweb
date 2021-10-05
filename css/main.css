@@ -82,6 +82,20 @@ a {
     margin-top: 80px;
 }
 
+.main-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 60px ;
+    padding-bottom: 20px;
+}
+
+.music-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 
 /* header */
 header {
@@ -152,12 +166,26 @@ main {
     font-weight: 600;
 }
 
-.main-right .cover {
-    width: 300px;
-    height: 200px;
-    background: orange;
+/* recently */
+
+.main-content .cover {
+    width: calc(100% / 6 );
+    padding: 0 10px;
 }
 
+.cover img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+ /* mix */
+.mix-title .main-title {
+    padding-bottom: 5px;
+}
 
 /* footer */
 footer {
