@@ -102,7 +102,6 @@ main {
     background: #000;
     width: 20%;
     z-index: 2;
-    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -142,6 +141,16 @@ main {
     overflow: auto;
 }
 
+.main-right ul {
+    list-style: none;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.main-right li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 .main-right .cover {
     width: 300px;
