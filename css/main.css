@@ -107,7 +107,7 @@ a {
 }
 
 .icon-f {
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
 } 
@@ -188,7 +188,7 @@ main {
 
 .main-content .cover {
     width: calc(100% / 6 );
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .cover img {
