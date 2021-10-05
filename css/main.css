@@ -89,7 +89,7 @@ header {
     background: rgba(0,0,0,.2);
     justify-content: flex-end;
     position: fixed;
-    z-index: -45;
+    z-index: -2;
 }
 
 /* main-left */
@@ -104,7 +104,7 @@ header {
 
 .main-left  ul {
     list-style-type: none;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .main-left  li {
