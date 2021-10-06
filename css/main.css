@@ -73,7 +73,7 @@ a {
 }
 
 .icon-img{
-    width: 40px;
+    width: 30px;
     cursor: pointer;
 }
 
@@ -150,6 +150,7 @@ main a:hover {
     padding-left: 5px;
 }
 
+
 /* header */
 header {
     width: calc(100% - 230px);
@@ -212,13 +213,17 @@ main {
     overflow: auto;
 }
 
-.main-right ul {
+.navbar {
+    flex-wrap: wrap;
+}
+
+.main-right .navbar {
     list-style: none;
     justify-content: center;
     font-size: 18px;
 }
 
-.main-right li a {
+.navbar li a {
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -228,6 +233,7 @@ main {
 .main-content .cover {
     width: calc(100% / 6 );
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 .cover img {
