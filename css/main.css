@@ -166,6 +166,7 @@ a {
 /* HOVER */
 main a:hover {
     color: #fff;
+    transition: .3s;
 }
 
 .list-navigation .container-aside:hover {
