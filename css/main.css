@@ -187,6 +187,16 @@ footer .track-bar:hover .icon-bar,
 footer .track-bar2:hover .icon-bar {
     visibility: visible;
 }
+
+footer .icon-f:hover {
+    color: #adff2f;
+}
+
+footer .icon-f2:hover {
+    font-size: 45px;
+    color: #adff2f;
+}
+
 /* header */
 header {
     width: calc(100% - 230px);
