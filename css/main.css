@@ -72,8 +72,8 @@ a {
     color: #fff;
 }
 
-.icon-a{
-    width: 50px;
+.icon-img{
+    width: 40px;
     cursor: pointer;
 }
 
@@ -116,6 +116,17 @@ a {
     font-size: 40px;
     color: #fff;
     cursor: pointer;
+}
+
+.title-footer {
+    font-weight: 900;
+    color: #fff;
+    font-size: 18px;
+}
+
+.subtitle-footer {
+    font-weight: 300;
+    font-size: 14px;
 }
 
 /* header */
@@ -176,7 +187,6 @@ main {
 /* right-section */
 .main-right {
     background: #141922;
-    width: 80%;
     flex-grow: 1;
     overflow: auto;
 }
@@ -230,13 +240,15 @@ footer {
 }
 
 .left-footer ul,
-.center-footer ul {
+.center-footer ul,
+.right-footer  ul {
     list-style: none;
 }
 
 .left-footer li,
-.center-footer li {
-    padding: 10px;
+.center-footer li,
+.right-footer  li {
+    padding: 5px;
     text-align: center;
 }
 
@@ -248,15 +260,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.left-footer .title-footer h4 {
-    font-weight: 900;
-    color: #fff;
-    font-size: 18px;
-}
-.left-footer .title-footer span {
-    font-weight: 600;
 }
 
 .left-footer .save-footer {
@@ -299,14 +302,6 @@ footer {
 .right-footer .up-right{
     align-items: center;
     justify-content: center;
-}
-
-.right-footer  ul{
-    list-style-type: none;
-}
-
-.right-footer  li {
-    padding: 0 10px;
 }
 
 .track-bar2 {
