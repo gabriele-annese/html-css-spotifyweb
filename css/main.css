@@ -169,6 +169,10 @@ header .button:hover {
     font-size: 17px;
 }
 
+main .navbar li:hover .b-nav {
+    visibility: visible;
+}
+
 .cover-img:hover img{
     filter:brightness(0.5);
 }
@@ -272,6 +276,19 @@ main {
 .navbar li a {
     text-transform: uppercase;
     font-weight: 600;
+}
+
+ nav .container-bar {
+    flex-direction: column;
+    align-items: center;
+}
+
+.b-nav{
+    width: 50%;
+    height: 2px;
+    background-color:#adff2f ;
+    margin-top: 5px;
+    visibility: hidden;
 }
 
 /* recently */
