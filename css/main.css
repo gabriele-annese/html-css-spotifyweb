@@ -149,6 +149,12 @@ a {
     cursor: pointer;
 }
 
+.icon-bar {
+    font-size: 20px;
+    color: #fff;
+    visibility: hidden;
+}
+
 /* HOVER */
 main a:hover {
     color: #fff;
@@ -171,6 +177,16 @@ header .button:hover {
     visibility: visible;
 }
 
+footer .track-bar:hover .bar-in,
+footer .track-bar2:hover .bar-in{
+    background-color: #adff2f;
+    cursor: pointer;
+}
+
+footer .track-bar:hover .icon-bar,
+footer .track-bar2:hover .icon-bar {
+    visibility: visible;
+}
 /* header */
 header {
     width: calc(100% - 230px);
@@ -349,8 +365,17 @@ footer {
 .down-center .track-bar {
     width: 500px;
     height: 5px;
-    background-color: lightgray;
+    background-color: #5a5a5a;
     border-radius: 20px;
+}
+
+.bar-in {
+    width: 30%;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .down-center span {
@@ -367,7 +392,7 @@ footer {
 .right-footer .track-bar2 {
     width: 100px;
     height: 5px;
-    background-color: lightgray;
+    background-color: #5a5a5a;
     border-radius: 20px;
 }
 
