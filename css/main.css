@@ -21,11 +21,6 @@ a {
 }
 
 /* utility */
-.debug-box {
-    height: 50px;
-    width: 100%;
-    background: rgba(0,0,0,.2);
-}
 
 .flex{
     display: flex;
@@ -59,6 +54,11 @@ a {
 
 .brand {
     width: 150px;
+}
+
+.brand2 {
+    width: 40px;
+    visibility: hidden;
 }
 
 .action {
@@ -204,7 +204,7 @@ footer .icon-f2:hover {
 /* header */
 header {
     width: calc(100% - 230px);
-    background: rgba(0,0,0,.2);
+    background: rgba(0,0,0,.7);
     justify-content: flex-end;
     position: fixed;
     top: 0;
@@ -423,4 +423,91 @@ footer {
     border-radius: 20px;
 }
 
+/****************
+    MEDIA QUERY 
+*********/
 
+/* large */
+
+@media  screen  and (max-width:1100px){
+    .main-content .cover {
+        width: calc(100% / 4);
+    }
+
+/* MEDIUM */
+@media  screen  and (max-width:900px){
+    .main-content .cover {
+        width: calc(100% / 3);
+    }
+    .down-center .track-bar {
+        width: 300px
+    }
+}
+
+/* SMAL */
+
+@media  screen  and (max-width:800px) {
+    .main-content .cover {
+        width: calc(100% / 2);
+    }
+    .down-center .track-bar {
+        width: 200px
+    }
+
+    .navbar li {
+        padding: 10px 10px;
+    }
+
+    .recently .subtitle {
+        font-size: 16px;
+    }
+    
+}
+
+/* EXTRA-SMALL */
+@media  screen  and (max-width:500px){
+
+    .main-content .cover {
+        width: calc(100% / 2);
+    }
+    down-center .track-bar {
+        width: 50px
+    }
+    
+    .left-footer .icon-f,
+    .left-footer .title-footer{
+        display: none;
+    }
+    
+    .right-footer .track-bar2{
+        width: 40px;
+    }
+
+    main .main-left {
+        width: 80px;
+    }
+    
+    .main-left a,
+    .main-left h2,
+    .main-left .plus,
+    .main-left .brand{
+        display: none;
+    }
+
+    .main-left .brand2 {
+        visibility: visible;
+    }
+
+    header{
+        width: calc(100% - 80px);;
+    }
+
+    .navbar li {
+        width: calc(100% / 3);
+    }
+
+    .navbar li a {
+        font-size: 16px;
+    }
+
+}
