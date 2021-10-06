@@ -59,6 +59,7 @@ a {
 .brand2 {
     width: 40px;
     visibility: hidden;
+    position: absolute;
 }
 
 .action {
@@ -505,6 +506,7 @@ footer {
     
     .main-left .brand2 {
         visibility: visible;
+        position: relative;
     }
     
     header{
